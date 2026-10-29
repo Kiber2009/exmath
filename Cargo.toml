@@ -1,0 +1,17 @@
+[package]
+name = "exmath"
+version = "0.1.0"
+edition = "2024"
+description = "Extended math library"
+license = "MIT"
+authors = ["Kiber2009 <92222946+Kiber2009@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/Kiber2009/exmath"
+repository = "https://github.com/Kiber2009/exmath.git"
+
+[lib]
+name = "exmath"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.30.1", features = ["extension-module", "experimental-inspect"] }

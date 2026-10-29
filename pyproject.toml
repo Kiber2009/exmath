@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.15,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "exmath"
+requires-python = ">=3.8"
+authors = [{ name = "Kiber2009", email = "92222946+Kiber2009@users.noreply.github.com" }]
+urls = {
+    github = "https://github.com/Kiber2009/exmath",
+    repository = "https://github.com/Kiber2009/exmath.git",
+    issues = "https://github.com/Kiber2009/exmath/issues"
+}
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version", "description", "license"]
