@@ -12,8 +12,13 @@ urls = {
     issues = "https://github.com/Kiber2009/exmath/issues"
 }
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Typing :: Typed",
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Intended Audience :: Developers"
 ]
 dynamic = ["version", "description", "license"]
