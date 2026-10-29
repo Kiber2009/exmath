@@ -19,6 +19,5 @@ classifiers = [
 dynamic = ["version", "description", "license"]
 
 [project.urls]
-github = "https://github.com/Kiber2009/exmath"
-repository = "https://github.com/Kiber2009/exmath.git"
-issues = "https://github.com/Kiber2009/exmath/issues"
+GitHub = "https://github.com/Kiber2009/exmath"
+Issues = "https://github.com/Kiber2009/exmath/issues"
